@@ -14,6 +14,9 @@ namespace PTPMQL3.Models
         public virtual DbSet<Account> Accounts { get; set; }
         public virtual DbSet<Student> Students { get; set; }
         public virtual DbSet<KhachHang> KhachHangs { get; set; }
+        public virtual DbSet<QuanLyHangHoa> QuanLyHangHoas { get; set; }
+        public virtual DbSet<QuanLyNhanVien> QuanLyNhanViens { get; set; }
+
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

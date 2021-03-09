@@ -12,6 +12,7 @@ namespace PTPMQL3.Models
         [Key]
         public string KhachHangID { get; set; }
         public string TenKhachHang { get; set; }
+        public string SoDienThoai { get; set; }
         public string DiaChi { get; set; }
     }
 }

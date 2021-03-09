@@ -153,11 +153,20 @@
     <Compile Include="Migrations\202103081643463_Create_Table_KhachHang.Designer.cs">
       <DependentUpon>202103081643463_Create_Table_KhachHang.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202103090155595_Create_Table_QuanLyHangHoa.cs" />
+    <Compile Include="Migrations\202103090155595_Create_Table_QuanLyHangHoa.Designer.cs">
+      <DependentUpon>202103090155595_Create_Table_QuanLyHangHoa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202103090157022_Create_Table_QuanLyNhanVien.cs" />
+    <Compile Include="Migrations\202103090157022_Create_Table_QuanLyNhanVien.Designer.cs">
+      <DependentUpon>202103090157022_Create_Table_QuanLyNhanVien.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Account.cs" />
     <Compile Include="Models\DemoDbcontext.cs" />
     <Compile Include="Models\KhachHang.cs" />
-    <Compile Include="Models\Student.cs" />
+    <Compile Include="Models\QuanLyHangHoa.cs" />
+    <Compile Include="Models\QuanLyNhanVien.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -229,6 +238,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202103081643463_Create_Table_KhachHang.resx">
       <DependentUpon>202103081643463_Create_Table_KhachHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202103090155595_Create_Table_QuanLyHangHoa.resx">
+      <DependentUpon>202103090155595_Create_Table_QuanLyHangHoa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202103090157022_Create_Table_QuanLyNhanVien.resx">
+      <DependentUpon>202103090157022_Create_Table_QuanLyNhanVien.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
